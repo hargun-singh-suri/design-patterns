@@ -1,0 +1,22 @@
+Singleton :
+
+GoF Definition: Ensure a class only has one instance, and provide a global point of access to it.
+A particular class should have only one instance. We will use only that instance whenever we are in need.
+
+Steps :
+
+In class SingletonExample perform below steps
+	
+	//0: We want to make this class SingletonExample as singleton object will created only once
+	//1 :Make Constructor of the class private
+	//2: Create inner class which will provide instance of the class
+	//3: Make instance of the class as static final it will be initialized only once
+	//4: Create method to be able to access this instance from other classes and Package make this method static
+	
+Expected Output :
+
+Singleton demo
+Creating instance of the class...1
+Creating another instance of the class...2
+Compare instance of the class
+Object are same
